@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="VecMath/VecMath.vcxproj" Id="eb9215b4-9b28-4880-8127-089860ae9c9d" />
+  <Project Path="VecMathTests/VecMathTests.vcxproj" Id="f9a366d9-efb5-4381-8fd8-d7128a4c3792">
+    <BuildDependency Project="VecMath/VecMath.vcxproj" />
+  </Project>
+</Solution>
